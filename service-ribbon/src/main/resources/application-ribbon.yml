@@ -1,0 +1,16 @@
+server:
+  port: 8764
+spring:
+  application:
+    # 服务名称配置
+    name: service-ribbon
+# eureka server 配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
