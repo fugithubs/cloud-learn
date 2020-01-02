@@ -1,0 +1,19 @@
+server:
+  port: 8770
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          # git的仓库地址
+          uri: https://github.com/fugithubs/spring-cloud-config
+          # 仓库路径
+          search-paths: respo
+          # git仓库的用户名 - 私库才需要
+          username:
+          # git仓库的密码 - 私库才需要
+          password:
+      # 仓库的分支
+      label: master
