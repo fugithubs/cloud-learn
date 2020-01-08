@@ -8,7 +8,8 @@ spring:
       server:
         git:
           # git的仓库地址
-          uri: https://github.com/fugithubs/spring-cloud-config
+          # uri: https://github.com/fugithubs/spring-cloud-config
+          uri: http://localhost:8080/git/root/spring-cloud-config-gitbucket.git
           # 仓库路径
           search-paths: respo
           # git仓库的用户名 - 私库才需要
