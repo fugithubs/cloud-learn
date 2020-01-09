@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin-client-hi/zipkin-client-hi.iml" filepath="$PROJECT_DIR$/zipkin-client-hi/zipkin-client-hi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin-client-miya/zipkin-client-miya.iml" filepath="$PROJECT_DIR$/zipkin-client-miya/zipkin-client-miya.iml" />
     </modules>
   </component>
 </project>

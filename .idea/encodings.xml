@@ -8,6 +8,8 @@
     <file url="file://$PROJECT_DIR$/service-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-ribbon/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin-client-hi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin-client-miya/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
